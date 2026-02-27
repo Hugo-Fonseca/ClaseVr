@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   id: Recoger
   clip: {fileID: 8300000, guid: c01e7b5be73d27b489232621bf37f7da, type: 3}
-  volume: 1
+  volume: 10
   loop: 0
-  spatialBlend: 1
+  spatialBlend: 0
