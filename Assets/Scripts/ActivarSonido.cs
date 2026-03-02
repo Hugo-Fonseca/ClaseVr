@@ -9,8 +9,8 @@ public class ActivarSonido : MonoBehaviour
         if (other.tag == "Player")
         {
 
-            //AudioManager.Instance.Play3D("Recoger", post.transform.position); // Reproducir el sonido de detección al entrar en la zona definida
-            AudioManager.Instance.Play2D("Recoger");
+            AudioManager.Instance.Play3D("Recoger", post.transform.position); // Reproducir el sonido de detección al entrar en la zona definida
+            //AudioManager.Instance.Play2D("Recoger"); // Reproducir el sonido de detección al entrar en la zona definida
         }
     }
 
@@ -19,8 +19,8 @@ public class ActivarSonido : MonoBehaviour
         if (other.tag == "Player")
         {
 
-            //AudioManager.Instance.Play3D("Salir", post1.transform.position); // Reproducir el sonido de perder al salir de la zona definida
-            AudioManager.Instance.Play2D("Salir");
+            AudioManager.Instance.Play3D("Salir", post1.transform.position); // Reproducir el sonido de perder al salir de la zona definida
+            //AudioManager.Instance.Play2D("Salir"); // Reproducir el sonido de perder al salir de la zona definida
         }
     }
 }
